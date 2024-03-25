@@ -1,0 +1,755 @@
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
+#Crystal belt
+Show
+	Class "Belts"
+	BaseType "Crystal Belt"
+	ItemLevel >= 84
+	SetFontSize 30
+	SetBackgroundColor 87 170 196
+	SetBorderColor 2 16 95
+	SetTextColor 2 16 95
+	MinimapIcon 0 Blue Triangle
+	PlayEffect Blue 
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# 6 Linked
+Show
+	LinkedSockets >= 6
+	SetFontSize 30
+	SetBackgroundColor 255 255 255
+	SetBorderColor 68 255 0
+	SetTextColor 68 255 0
+	MinimapIcon 0 Green Triangle
+	PlayEffect Green 	
+
+# Influence Item
+Show 
+	HasInfluence "Elder"
+	Class "Amulet"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 59 255 235
+	SetTextColor 59 255 235
+
+#Brech Ring
+Show
+	Class "Ring"
+	BaseType "Breach"
+	SetFontSize 35
+	SetBackgroundColor 0 0 0
+	SetBorderColor 224 17 155
+	SetTextColor 224 17 155
+	MinimapIcon 2 Purple Moon
+	PlayEffect Purple   
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
+
+#Unique Map
+Show
+	Class "Maps"
+	Rarity = "Unique"
+	SetFontSize 35
+	SetBackgroundColor 129 34 218
+	SetBorderColor 243 129 98
+	SetTextColor 243 129 98
+	MinimapIcon 0 Purple Circle
+	PlayEffect Purple
+
+# Unique
+Show
+	Rarity = Unique
+	SetFontSize 30
+	SetBackgroundColor 183 73 13
+	SetBorderColor 65 17 4
+	SetTextColor 65 17 4
+	PlayEffect Orange 	
+
+# Veiled
+Show
+	HasExplicitMod "Veil"
+	SetFontSize 35
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 247 0
+	SetTextColor 255 247 0
+	MinimapIcon 0 Yellow Diamond
+	PlayEffect Yellow		
+	
+# SynthesisedItem
+Show
+	SynthesisedItem True
+	SetFontSize 35
+	SetBackgroundColor 0 0 0
+	SetBorderColor 104 200 249
+	SetTextColor 104 200 249
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+
+# FracturedItem
+Show
+	FracturedItem True
+	SetFontSize 30
+	SetBackgroundColor 0 0 0
+	SetBorderColor 166 0 255
+	SetTextColor 166 0 255
+	MinimapIcon 0 Purple Diamond
+	PlayEffect Purple
+
+# Influence Fragment
+Show 
+	Class "Maps" "Map Fragments"
+	HasInfluence "Shaper" "Elder" "Crusader" "Redeemer" "Hunter" "Warlord"
+	SetFontSize 40
+	SetBackgroundColor 129 34 218
+	SetBorderColor 59 255 235
+	SetTextColor 59 255 235	
+	MinimapIcon 0 Cyan Diamond
+	PlayEffect Cyan 
+
+# Influence Item
+Show 
+	HasInfluence "Shaper" "Elder" "Crusader" "Redeemer" "Hunter" "Warlord"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 59 255 235
+	SetTextColor 59 255 235
+
+#### Trade
+
+# Chromatic Orb 1 Items
+Show
+	SetFontSize 35
+	SocketGroup "RGB"
+	SetBackgroundColor 67 233 164
+	SetBorderColor 18 21 181
+	SetTextColor 18 21 181
+	MinimapIcon 0 Green UpsideDownHouse  
+	PlayEffect Green	
+	CustomAlertSound  "Coin.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# Jeweller's Orb 1 Items
+Show
+	SetFontSize 35
+	Sockets >= 6
+	SetBackgroundColor 67 233 164
+	SetBorderColor 173 49 49
+	SetTextColor 173 49 49
+	MinimapIcon 0 Red UpsideDownHouse  
+	PlayEffect Red	
+	CustomAlertSound  "Coin.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# Orb of Fusing 1 Items
+Show
+	SetFontSize 45
+	LinkedSockets >= 6
+	SetBackgroundColor 205 233 67
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	MinimapIcon 0 Green UpsideDownHouse  
+	PlayEffect Green	
+	CustomAlertSound  "Coin.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# Single 20% Quality
+Show
+	Rarity = Normal
+	SetFontSize 45
+	Quality >= 20
+	SetBackgroundColor 205 233 67
+	SetBorderColor 14 74 59
+	SetTextColor 14 74 59
+	MinimapIcon 0 Green UpsideDownHouse  
+	PlayEffect Green	
+	CustomAlertSound  "Coin.mp3" 300
+	DisableDropSoundIfAlertSound
+
+### Gem Class
+# Vaal Gem
+Show
+	Class "Gem"
+	BaseType "Awakened"
+	SetFontSize 45
+	SetBackgroundColor 222 65 65
+	SetBorderColor 77 248 200
+	SetTextColor 77 248 200
+	MinimapIcon 1 Orange Star 
+	PlayEffect Orange
+	CustomAlertSound  "Glass.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# Vaal Gem
+Show
+	Class "Gem"
+	BaseType "Vaal"
+	SetFontSize 35
+	SetBackgroundColor 255 126 126
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+	MinimapIcon 1 Orange Star 
+	PlayEffect Orange
+	CustomAlertSound  "Glass.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# >10% Quality Gem
+Show
+	Class "Gem"
+	Quality >= 10
+	SetFontSize 35
+	SetBackgroundColor 239 170 170
+	SetBorderColor 246 0 0
+	SetTextColor 0 0 0
+	MinimapIcon 1 Orange Star 
+	PlayEffect Orange
+	CustomAlertSound  "Glass.mp3" 300
+	DisableDropSoundIfAlertSound
+
+# Normal Gem
+Show
+	Class "Gem"
+	SetFontSize 25
+	SetBackgroundColor 239 170 170
+	SetBorderColor 255 126 126
+	SetTextColor 0 0 0 200
+
+###Currency Class
+
+#Ichor
+Show
+	Class "Currency"
+	BaseType "Ichor"
+	SetFontSize 35
+	SetBackgroundColor 179 191 247
+	SetBorderColor 10 86 226
+	SetTextColor 10 86 226
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+#Ember
+Show
+	Class "Currency"
+	BaseType "Ember"
+	SetFontSize 35
+	SetBackgroundColor 255 174 174
+	SetBorderColor 226 10 10
+	SetTextColor 226 10 10
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+
+#Legion
+Show
+	Class "Currency"
+	BaseType "Timeless"
+	SetFontSize 35
+	SetBackgroundColor 0 0 0
+	SetBorderColor 226 194 10
+	SetTextColor 230 220 164
+	MinimapIcon 1 Yellow Moon
+	PlayEffect Yellow
+
+#Breach
+Show
+	BaseType "Splinter of"
+	SetFontSize 35
+	SetBackgroundColor 229 155 231
+	SetBorderColor 224 17 155
+	SetTextColor 224 17 155
+	MinimapIcon 0 Purple Moon
+	PlayEffect Purple   
+
+#Life force
+Show
+	BaseType "Lifeforce"
+	SetFontSize 35
+	SetBackgroundColor 17 114 224
+	SetBorderColor 255 226 133
+	SetTextColor 255 226 133
+	MinimapIcon 0 Blue Star
+	PlayEffect Blue  
+
+#Catalyst
+Show
+	Class "Currency"
+	BaseType "Catalyst"
+	SetFontSize 35
+	SetBackgroundColor 104 156 180
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Circle
+	PlayEffect Blue  
+
+
+#Essence
+Show
+	Class "Currency"
+	BaseType "Essence"
+	SetFontSize 35
+	SetBackgroundColor 122 107 222
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+
+#Fossil Resonator 1
+Show
+	Class "Currency"
+	BaseType "Prime Chaotic Resonator"
+	SetFontSize 45
+	SetBackgroundColor 93 172 128
+	SetBorderColor 151 255 198
+	SetTextColor 151 255 198
+	MinimapIcon 0 Green Kite
+	PlayEffect Green  
+
+#Fossil Resonator 2
+Show
+	Class "Currency"
+	BaseType "Resonator"
+	SetFontSize 35
+	SetBackgroundColor 46 134 86
+	SetBorderColor 91 212 145
+	SetTextColor 91 212 145
+	MinimapIcon 1 Green Kite
+	PlayEffect Green  
+
+#Fossil High
+Show
+	Class "Currency"
+	BaseType "Faceted Fossil" "Hollow Fossil" "Glyphic Fossil" "Fractured Fossil" "Perfect Fossil" "Shuddering Fossil" "Sanctified Fossil" "Corroded Fossil" "Bound Fossil" "Fundamental Fossil"
+	SetFontSize 45
+	SetBackgroundColor 246 202 55
+	SetBorderColor 192 74 0
+	SetTextColor 192 74 0
+	MinimapIcon 0 Yellow Kite
+	PlayEffect Blue  
+#Fossil
+Show
+	Class "Currency"
+	BaseType "Fossil" "Resonator"
+	SetFontSize 30
+	SetBackgroundColor 246 202 55
+	SetBorderColor 192 74 0
+	SetTextColor 192 74 0
+	MinimapIcon 0 Yellow Kite
+	PlayEffect Blue  
+
+#Expendition Currency
+Show
+	BaseType "Astragali" "Exotic Coinage" "Scrap Metal" "Burial Medallion"
+	SetFontSize 35
+	SetBackgroundColor 65 143 107
+	SetBorderColor 175 246 181
+	SetTextColor 175 246 181
+	MinimapIcon 0 Green Square
+	PlayEffect Green
+
+#Common Currency
+Show
+	Class "Currency"
+	BaseType "Scroll of Wisdom" "Portal Scroll"
+	SetFontSize 25
+	SetBackgroundColor 255 226 133
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	PlayEffect Yellow Temp
+
+#Oil Extractor
+Show
+
+	BaseType "Oil Extractor" "Tainted Oil"
+	SetFontSize 45
+	SetBackgroundColor 255 255 255
+	SetBorderColor 197 118 0
+	SetTextColor 197 118 0
+	MinimapIcon 0 Orange Star
+	PlayEffect Grey
+
+#Oil High
+Show
+	Class "Stackable Currency"
+	BaseType "Violet Oil" "Crimson Oil" "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil"
+	SetFontSize 40
+	SetBackgroundColor 246 230 195 232
+	SetBorderColor 126 80 11
+	SetTextColor 126 80 11
+	MinimapIcon 0 Yellow Star
+	PlayEffect Grey
+
+#Oil
+Show
+	Class "Stackable Currency"
+	BaseType "Oil"
+	SetFontSize 35
+	SetBackgroundColor 246 230 195 178
+	SetBorderColor 126 80 11
+	SetTextColor 126 80 11
+	MinimapIcon 1 Yellow Star
+	PlayEffect Grey
+
+#Rouge's Marker
+Show
+	Class "Currency" "Stackable Currency"
+	BaseType "Marker"
+	SetFontSize 35
+	SetBackgroundColor 228 86 86
+	SetBorderColor 114 4 4
+	SetTextColor 114 4 4
+	MinimapIcon 2 Blue Star
+	PlayEffect Blue
+
+Show
+	BaseType "Forbidden Tome"
+	SetFontSize 40
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 51 255
+	SetTextColor 0 51 255
+	MinimapIcon 0 Blue Triangle
+	PlayEffect Blue 
+
+Show
+	Class "Relic"
+	SetFontSize 30
+	SetBackgroundColor 118 68 72
+	SetBorderColor 255 0 21
+	SetTextColor 255 0 21
+	MinimapIcon 0 Red Triangle
+	PlayEffect Red 	
+
+#Stacked Deck
+Show
+	Class "Currency" "Stackable Currency"
+	BaseType "Stacked Deck"
+	SetFontSize 45
+	SetBackgroundColor 235 77 164
+	SetBorderColor 255 210 235
+	SetTextColor 255 210 235
+	MinimapIcon 2 Pink Circle
+	PlayEffect Pink
+
+#Shard Currency
+Show
+	Class "Currency" "Stackable Currency"
+	BaseType "Shard"
+	SetFontSize 35
+	SetBackgroundColor 255 216 90
+	SetBorderColor 26 76 192
+	SetTextColor 26 76 192
+	MinimapIcon 2 Blue Circle
+	PlayEffect Blue
+
+#Value Currency
+Show
+	Class "Currency" "Stackable Currency"
+	BaseType "Chaos" "Divine" "Mirror"
+	SetFontSize 45
+	SetBackgroundColor 192 74 0
+	SetBorderColor 255 226 133
+	SetTextColor 255 226 133
+	MinimapIcon 0 Orange Circle
+	PlayEffect Orange
+
+#High Currency
+Show
+	Class "Currency" "Stackable Currency"
+	SetFontSize 40
+	SetBackgroundColor 255 226 133
+	SetBorderColor 192 74 0
+	SetTextColor 192 74 0
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow
+
+#Card Better "inter lock"
+Show
+	BaseType "The Demoness"
+	Class "Divination Card" 
+	SetFontSize 30
+	SetBackgroundColor 24 40 128
+	SetBorderColor 172 184 250
+	SetTextColor 172 184 250
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue	
+
+#Card Better
+Show
+	BaseType "The Apothecary" "House of Mirrors" "The Price of Devotion" "Unrequited Love" "The Insane Cat" "The Insane Cat" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
+	Class "Divination Card" 
+	SetFontSize 45
+	SetBackgroundColor 23 55 235
+	SetBorderColor 172 184 250
+	SetTextColor 172 184 250
+	MinimapIcon 0 Cyan Square
+	PlayEffect Cyan
+
+#Card
+Show
+	Class "Divination Card" 
+	SetFontSize 30
+	SetBackgroundColor 24 40 128
+	SetBorderColor 172 184 250
+	SetTextColor 172 184 250
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue	
+
+#Map1
+Show
+	Class "Maps"
+	SetFontSize 35
+	SetBackgroundColor 129 34 218
+	SetBorderColor 193 151 233
+	SetTextColor 193 151 233
+	MinimapIcon 0 Purple Circle
+	PlayEffect Purple
+
+#Frgment Legion
+Show
+	Class "Map Fragments"
+	BaseType "Timeless"
+	SetFontSize 45
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 220 25
+	SetTextColor 255 220 25
+	MinimapIcon 0 Yellow Hexagon
+	PlayEffect Yellow
+
+#Frgment Base
+Show
+	Class "Map Fragments" "Misc Map Items"
+	SetFontSize 40
+	SetBackgroundColor 67 29 70
+	SetBorderColor 233 151 230
+	SetTextColor 233 151 230
+	MinimapIcon 0 Purple Hexagon
+	PlayEffect Purple
+
+#Flask Utility 
+Show
+	Class "Utility Flasks" "Critical Utility Flasks"
+	SetFontSize 35
+	SetBackgroundColor 136 215 235
+	SetBorderColor 33 68 226
+	SetTextColor 33 68 226
+	ItemLevel >= 85
+
+#Flask Utility 
+Hide
+	Class "Utility Flasks" "Critical Utility Flasks"
+	SetFontSize 35
+	SetBackgroundColor 136 215 235
+	SetBorderColor 8 26 33
+	SetTextColor 8 26 33
+
+#Flask >= 10 Quality 
+Hide
+	BaseType "Flask"
+	Quality >= 10
+	SetFontSize 28
+	SetBackgroundColor 93 192 217
+	SetBorderColor 8 26 33
+	SetTextColor 8 26 33
+
+#Flask Low level
+Hide
+	BaseType "Flask"	
+	SetFontSize 25
+	SetBackgroundColor 147 191 207 0
+	SetBorderColor 93 192 217 
+	SetTextColor 93 192 217 
+
+#Lab
+Show
+	Class "Labyrinth Item" "Labyrinth Trinket" "Labyrinth Map Item"
+	SetFontSize 30
+	SetBackgroundColor 210 252 188
+	SetBorderColor 18 31 15
+	SetTextColor 18 31 15
+	MinimapIcon 0 Grey Cross
+	PlayEffect Grey  	
+
+#Jewel Cluster
+Show
+	Class "Jewel" "Abyss Jewel"
+	BaseType "Cluster"
+	SetFontSize 35
+	SetBackgroundColor 138 42 92
+	SetBorderColor 225 211 224
+	SetTextColor  225 211 224
+	MinimapIcon 0 Pink Diamond
+	PlayEffect Pink	
+
+#Jewel
+Show
+	Class "Jewel" "Abyss Jewel"
+	Rarity "Rare"
+	ItemLevel >= 82
+	SetFontSize 30
+	SetBackgroundColor 255 255 255
+	SetBorderColor 47 146 192
+	SetTextColor 47 146 192
+
+#Jewel
+Hide
+	Class "Jewel" "Abyss Jewel"
+	SetFontSize 28
+	SetBackgroundColor 255 255 255
+	SetBorderColor 47 146 192
+	SetTextColor 47 146 192
+
+#Incursion Item
+Show
+	Class "Incursion Item" 
+	SetFontSize 40
+	SetBackgroundColor 216 216 216
+	SetBorderColor 48 48 48
+	SetTextColor 48 48 48
+	MinimapIcon 0 White Diamond
+	PlayEffect White	
+
+#Incubator 
+Show
+	BaseType "Incubator"
+	SetFontSize 35
+	SetBackgroundColor 255 145 0
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Orange Triangle
+	PlayEffect Orange	
+	
+#Heist Item
+Show
+	Class "Contract" "Heist Gear" "Heist Tool" "Heist Cloak" "Heist Brooch" "Blueprint" "Heist Target"
+	SetFontSize 30
+	SetBackgroundColor 248 147 80
+	SetBorderColor 136 68 5
+	SetTextColor 136 68 5
+	MinimapIcon 0 Orange Pentagon 
+	PlayEffect Red 		
+
+#Memory
+Show
+	Class "Memory"
+	SetFontSize 35
+	SetBackgroundColor 129 34 218
+	SetBorderColor 255 204 0
+	SetTextColor 255 204 0
+	MinimapIcon 0 Purple Hexagon
+	PlayEffect Purple
+
+#Key
+Show
+	BaseType "Key"
+	SetFontSize 30
+	SetBackgroundColor 2 255 179
+	SetBorderColor 255 204 0
+	SetTextColor 255 204 0
+	MinimapIcon 0 Green Star
+	PlayEffect Green
+
+#Ward
+Show
+	Class "Boots" "Gloves" "Helmets"
+	BaseType "Runic"
+	SetFontSize 30
+	SetBackgroundColor 102 182 145
+	SetBorderColor 0 55 255
+	SetTextColor 0 55 255
+	MinimapIcon 0 Green Square
+	PlayEffect Green
+
+#Logbook
+Show
+	BaseType "Expedition Logbook"
+	SetFontSize 35
+	SetBackgroundColor 65 143 107
+	SetBorderColor 255 244 200
+	SetTextColor 255 244 200
+	MinimapIcon 0 Yellow Square
+	PlayEffect Yellow
+
+#Sanctum
+Show
+	BaseType "Forbidden Tome"
+	SetFontSize 40
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 51 255
+	SetTextColor 0 51 255
+	MinimapIcon 0 Blue Triangle
+	PlayEffect Blue 	
+Show
+	BaseType "Relic"
+	SetFontSize 30
+	SetBackgroundColor 118 68 72
+	SetBorderColor 255 0 21
+	SetTextColor 255 0 21
+	MinimapIcon 0 Red Triangle
+	PlayEffect Red 	
+
+#Identify
+Show
+	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Mace" "Two Hand Axe" "Two Hand Swords" "Two Hand Swords" "Quiver" "Ring" "Amulet" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Rune Daggers" "Warstaves"
+	Identified True
+	Corrupted False
+	SetFontSize 30
+	SetBackgroundColor 55 95 104
+	SetBorderColor 182 239 243
+	SetTextColor 182 239 243
+	MinimapIcon 0 Yellow Triangle
+### Other Class
+    
+Hide
+	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Mace" "Two Hand Axe" "Two Hand Swords" "Two Hand Swords" "Quiver" "Ring" "Amulet" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Rune Daggers" "Warstaves"
+
+	Show
+		Class "Incursion Item"
+# Rare
+Show
+	Rarity = Rare
+	SetFontSize 20
+	SetBackgroundColor 255 255 255 0
+	SetBorderColor 255 208 0 180
+	SetTextColor 255 208 0 180
+# Magic	
+Show
+	Rarity = Magic
+	SetFontSize 20
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 136 136 255 180
+	SetTextColor 136 136 255 180
+# Normal
+Show
+	Rarity = Normal
+	SetFontSize 20
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 200 200 200 180
+	SetTextColor 200 200 200 180
+
+### COLOR
+#Red 
+#Green 
+#Blue 
+#Brown 
+#White 
+#Yellow 
+#Cyan 
+#Grey 
+#Orange 
+#Pink 
+#Purple
+
+### ICON
+#Circle 
+#Diamond 
+#Hexagon 
+#Square 
+#Star 
+#Triangle 
+#Cross 
+#Moon 
+#Raindrop 
+#Kite 
+#Pentagon 
+#UpsideDownHouse 
