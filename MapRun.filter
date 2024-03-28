@@ -1,22 +1,43 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
-#Crystal belt
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
+#Allflame
 Show
-	Class "Belts"
-	BaseType "Crystal Belt"
-	ItemLevel >= 84
-	SetFontSize 30
-	SetBackgroundColor 87 170 196
-	SetBorderColor 2 16 95
-	SetTextColor 2 16 95
+	BaseType "Allflame Ember"
+	SetFontSize 35
+	SetBackgroundColor 8 24 68
+	SetBorderColor 142 190 245
+	SetTextColor 142 190 245
 	MinimapIcon 0 Blue Triangle
 	PlayEffect Blue 
 
+# Veiled Scarab
+Show
+  Class "Stackable Currency"
+	BaseType "Veiled Scarab"
+	SetFontSize 35
+	SetBackgroundColor 36 43 650
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Cyan Triangle
+	PlayEffect Cyan 
+
+#Tattoo
+Show
+	BaseType "Tattoo"
+	SetFontSize 45
+	SetBackgroundColor 8 66 68
+	SetBorderColor 255 236 70
+	SetTextColor 255 236 70
+	MinimapIcon 0 Yellow Triangle
+	PlayEffect Yellow 	
+
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
 # 6 Linked
 Show
 	LinkedSockets >= 6
@@ -35,20 +56,7 @@ Show
 	SetBorderColor 59 255 235
 	SetTextColor 59 255 235
 
-#Brech Ring
-Show
-	Class "Ring"
-	BaseType "Breach"
-	SetFontSize 35
-	SetBackgroundColor 0 0 0
-	SetBorderColor 224 17 155
-	SetTextColor 224 17 155
-	MinimapIcon 2 Purple Moon
-	PlayEffect Purple   
-
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
 
 #Unique Map
 Show
@@ -252,13 +260,24 @@ Show
 	MinimapIcon 1 Yellow Moon
 	PlayEffect Yellow
 
+#Brech Ring
+Show
+	Class "Ring"
+	BaseType "Breach"
+	SetFontSize 35
+	SetBackgroundColor 0 0 0
+	SetBorderColor 224 17 155
+	SetTextColor 224 17 155
+	MinimapIcon 2 Purple Moon
+	PlayEffect Purple  
+
 #Breach
 Show
 	BaseType "Splinter of"
 	SetFontSize 35
-	SetBackgroundColor 229 155 231
+	SetBackgroundColor 243 200 223
 	SetBorderColor 224 17 155
-	SetTextColor 224 17 155
+	SetTextColor 224 17 79
 	MinimapIcon 0 Purple Moon
 	PlayEffect Purple   
 
@@ -463,10 +482,10 @@ Show
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow
 
-#Card Better "inter lock"
-Show
-	BaseType "The Demoness"
-	Class "Divination Card" 
+#Low tier card
+Hide
+	BaseType "The Demoness" "The Metalsmith's Gift" "The Lover" "Lantador's Lost Love" "The Tower" "Volatile Power" "Vinia's Token" "Vanity" "Time-Lost Relic" "Thunderous Skies" "The Scholar"
+	Class "Divination Low tier" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
@@ -474,20 +493,29 @@ Show
 	MinimapIcon 2 Blue Square
 	PlayEffect Blue	
 
-#Card Better
+#Low tier Best
 Show
-	BaseType "The Apothecary" "House of Mirrors" "The Price of Devotion" "Unrequited Love" "The Insane Cat" "The Insane Cat" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
-	Class "Divination Card" 
+	BaseType "The Apothecary" "House of Mirrors" "I See Brothers" "The Price of Devotion" "Unrequited Love" "The One That Got Away" "Who Asked" "Fire Of Unknown Origin" "The Insane Cat" "The Shieldbearer" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
+	Class "Divination Low tier" 
 	SetFontSize 45
-	SetBackgroundColor 23 55 235
-	SetBorderColor 172 184 250
-	SetTextColor 172 184 250
+	SetBackgroundColor 255 255 255
+	SetBorderColor 55 69 151
+	SetTextColor 55 69 151
 	MinimapIcon 0 Cyan Square
 	PlayEffect Cyan
 
-#Card
+#Low tier Better < 100c
+	BaseType "Doryani's Epiphany" "The Damned" "Darker Half" "The Astromancer" "Magnum Opus" "Eternal Bonds" "The Leviathan" "Wealth and Power" "The Greatest Intentions" "The Samurai's Eye" "The Nurse" "Beauty Through Death" "Winter's Embrace" "The Gulf" "The Old Man" "The Aspirant" "Broken Promises" "The Fishmonger" "Duality" "The Bitter Blossom" "The Destination" "Further Invention" "The Hook" "Misery in Darkness" "Succor of the Sinless" "The Long Con" "Fateful Meeting" "The Eternal War" "Remembrance" "The Hive of Knowledge" "The Catch" "Deadly Joy" "The Fortunate"
+	Class "Divination Low tier" 
+	SetFontSize 35
+	SetBackgroundColor 23 55 235
+	SetBorderColor 172 184 250
+	SetTextColor 172 184 250
+	MinimapIcon 1 Cyan Square
+	PlayEffect Cyan
+#Low tier
 Show
-	Class "Divination Card" 
+	Class "Divination Low tier" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
@@ -515,6 +543,28 @@ Show
 	SetTextColor 255 220 25
 	MinimapIcon 0 Yellow Hexagon
 	PlayEffect Yellow
+
+#Horned Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Horned Scarab"
+	SetFontSize 45
+	SetBackgroundColor 42 12 51
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 White Hexagon
+	PlayEffect Purple
+
+#Fragment Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Scarab"
+	SetFontSize 40
+	SetBackgroundColor 97 20 121
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 White Hexagon
+	PlayEffect Purple
 
 #Frgment Base
 Show
@@ -698,6 +748,79 @@ Show
 	SetBorderColor 182 239 243
 	SetTextColor 182 239 243
 	MinimapIcon 0 Yellow Triangle
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
+# Tier 1 res ItemLevel 84
+# Tier 1 Atribute ItemLevel 82 
+# Tier 1 Spell Suppress 86
+
+#ARMOR
+Hide
+	BaseType "Royal Burgonet" "Glorious Plate" "Astral Plate" "Titan Gauntlets" "Titan Greaves"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102
+
+#EV
+Hide
+	BaseType "Lion Pelt" "Zodiac Leather" "Slink Gloves" "Slink Boots" "Lacquered Buckler"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102
+
+#ES
+Hide
+	BaseType "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Titanium Spirit Shield"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#Minion
+Hide
+	BaseType "Fossilised Spirit Shield"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#ARMOR/EV
+Hide
+	BaseType "Nightmare Bascinet" "Pig-Faced Bascinet" "Full Dragonscale" "Triumphant Lamellar" "Dragonscale Gauntlets" "Dragonscale Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#ARMOR/ES
+Hide
+	BaseType "Prophet Crown" "Saint's Hauberk" "Saintly Chainmail" "Crusader Gloves" "Crusader Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102			
+
+#EV/ES
+Hide
+	BaseType "Vaal Mask" "Deicide Mask" "Carnal Armour" "Sadist Garb" "Blood Raiment" "Murder Mitts" "Murder Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102			
+
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
 ### Other Class
     
 Hide
