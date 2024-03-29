@@ -18,7 +18,7 @@ Show
   Class "Stackable Currency"
 	BaseType "Veiled Scarab"
 	SetFontSize 35
-	SetBackgroundColor 36 43 650
+	SetBackgroundColor 36 43 65
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
 	MinimapIcon 0 Cyan Triangle
@@ -485,7 +485,7 @@ Show
 #Low tier card
 Hide
 	BaseType "The Demoness" "The Metalsmith's Gift" "The Lover" "Lantador's Lost Love" "The Tower" "Volatile Power" "Vinia's Token" "Vanity" "Time-Lost Relic" "Thunderous Skies" "The Scholar"
-	Class "Divination Low tier" 
+	Class "Divination" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
@@ -496,7 +496,7 @@ Hide
 #Low tier Best
 Show
 	BaseType "The Apothecary" "House of Mirrors" "I See Brothers" "The Price of Devotion" "Unrequited Love" "The One That Got Away" "Who Asked" "Fire Of Unknown Origin" "The Insane Cat" "The Shieldbearer" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
-	Class "Divination Low tier" 
+	Class "Divination" 
 	SetFontSize 45
 	SetBackgroundColor 255 255 255
 	SetBorderColor 55 69 151
@@ -506,7 +506,7 @@ Show
 
 #Low tier Better < 100c
 	BaseType "Doryani's Epiphany" "The Damned" "Darker Half" "The Astromancer" "Magnum Opus" "Eternal Bonds" "The Leviathan" "Wealth and Power" "The Greatest Intentions" "The Samurai's Eye" "The Nurse" "Beauty Through Death" "Winter's Embrace" "The Gulf" "The Old Man" "The Aspirant" "Broken Promises" "The Fishmonger" "Duality" "The Bitter Blossom" "The Destination" "Further Invention" "The Hook" "Misery in Darkness" "Succor of the Sinless" "The Long Con" "Fateful Meeting" "The Eternal War" "Remembrance" "The Hive of Knowledge" "The Catch" "Deadly Joy" "The Fortunate"
-	Class "Divination Low tier" 
+	Class "Divination" 
 	SetFontSize 35
 	SetBackgroundColor 23 55 235
 	SetBorderColor 172 184 250
@@ -515,7 +515,7 @@ Show
 	PlayEffect Cyan
 #Low tier
 Show
-	Class "Divination Low tier" 
+	Class "Divination" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
