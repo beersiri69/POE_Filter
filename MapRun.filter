@@ -7,9 +7,9 @@
 Show
 	BaseType "Allflame Ember"
 	SetFontSize 35
-	SetBackgroundColor 8 24 68
-	SetBorderColor 142 190 245
-	SetTextColor 142 190 245
+	SetBackgroundColor 26 31 58
+	SetBorderColor 95 146 212
+	SetTextColor 142 245 219
 	MinimapIcon 0 Blue Triangle
 	PlayEffect Blue 
 

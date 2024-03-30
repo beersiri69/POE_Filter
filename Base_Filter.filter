@@ -1,33 +1,33 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
-# Show
-# 	SocketGroup "BBBR"
-# 	LinkedSockets >= 4
-# 	SetFontSize 45
-# 	SetBackgroundColor 8 13 87
-# 	SetBorderColor 208 230 255
-# 	SetTextColor 208 230 255
-# 	MinimapIcon 0 Blue Diamond
-# 	PlayEffect Blue 
-# Show
-# 	SocketGroup "BBB"
-# 	LinkedSockets >= 3 
-# 	SetFontSize 40
-# 	SetBackgroundColor 8 13 87
-# 	SetBorderColor 208 230 255
-# 	SetTextColor 208 230 255
-# 	MinimapIcon 0 Blue Diamond
-# 	PlayEffect Blue 
+Show
+	SocketGroup "BBBR"
+	LinkedSockets >= 4
+	SetFontSize 45
+	SetBackgroundColor 8 13 87
+	SetBorderColor 208 230 255
+	SetTextColor 208 230 255
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue 
+Show
+	SocketGroup "BBB"
+	LinkedSockets >= 3 
+	SetFontSize 40
+	SetBackgroundColor 8 13 87
+	SetBorderColor 208 230 255
+	SetTextColor 208 230 255
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue 
 
-# Show
-# 	SocketGroup "BBR"
-# 	LinkedSockets >= 3 
-# 	SetFontSize 40
-# 	SetBackgroundColor 8 13 87
-# 	SetBorderColor 208 230 255
-# 	SetTextColor 208 230 255
-# 	MinimapIcon 0 Blue Diamond
-# 	PlayEffect Blue 	
+Show
+	SocketGroup "BBR"
+	LinkedSockets >= 3 
+	SetFontSize 40
+	SetBackgroundColor 8 13 87
+	SetBorderColor 208 230 255
+	SetTextColor 208 230 255
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue 	
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
@@ -35,9 +35,9 @@
 Show
 	BaseType "Allflame Ember"
 	SetFontSize 35
-	SetBackgroundColor 8 24 68
-	SetBorderColor 142 190 245
-	SetTextColor 142 190 245
+	SetBackgroundColor 26 31 58
+	SetBorderColor 95 146 212
+	SetTextColor 142 245 219
 	MinimapIcon 0 Blue Triangle
 	PlayEffect Blue 
 
