@@ -1,5 +1,38 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
+Show
+	BaseType "Battered Foil" "Tempered Foil" 
+	ItemLevel >= 77
+	SetFontSize 45
+	SetBackgroundColor 8 13 87
+	SetBorderColor 208 230 255
+	SetTextColor 208 230 255
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue 
+
+# 5 Linked
+Show
+	LinkedSockets >= 5
+	SetFontSize 25
+	SetBackgroundColor 255 255 255
+	SetBorderColor 68 255 0
+	SetTextColor 68 255 0
+	MinimapIcon 1 Green Triangle
+	PlayEffect Green 	 		
+
+# Rare Set Unidentify Belts Ring Amulet
+Show
+	Rarity = Rare
+	ItemLevel >= 60
+	Identified False
+	Class "Belts" "Amulets" "Rings"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
@@ -24,7 +57,7 @@ Show
 	MinimapIcon 0 Cyan Triangle
 	PlayEffect Cyan 
 
-#Tattoo
+# Tattoo
 Show
 	BaseType "Tattoo"
 	SetFontSize 45
@@ -57,8 +90,7 @@ Show
 	SetTextColor 59 255 235
 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
-
-#Unique Map
+# Unique Map
 Show
 	Class "Maps"
 	Rarity = "Unique"
@@ -125,6 +157,13 @@ Show
 	SetBackgroundColor 0 0 0
 	SetBorderColor 59 255 235
 	SetTextColor 59 255 235
+
+# Special Belt
+Show 
+	BaseType "Crystal Belt" "Stygian Vise"
+	SetBackgroundColor 255 255 255 204
+	SetBorderColor 15 75 40
+	SetTextColor 15 75 40
 
 #### Trade
 
@@ -218,7 +257,7 @@ Show
 	DisableDropSoundIfAlertSound
 
 # Normal Gem
-Show
+Hide
 	Class "Gem"
 	SetFontSize 25
 	SetBackgroundColor 239 170 170
@@ -482,7 +521,7 @@ Show
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow
 
-#Low tier card
+#Hide Low tier card
 Hide
 	BaseType "The Demoness" "The Metalsmith's Gift" "The Lover" "Lantador's Lost Love" "The Tower" "Volatile Power" "Vinia's Token" "Vanity" "Time-Lost Relic" "Thunderous Skies" "The Scholar"
 	Class "Divination" 
@@ -496,7 +535,7 @@ Hide
 #Low tier Best
 Show
 	BaseType "The Apothecary" "House of Mirrors" "I See Brothers" "The Price of Devotion" "Unrequited Love" "The One That Got Away" "Who Asked" "Fire Of Unknown Origin" "The Insane Cat" "The Shieldbearer" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 45
 	SetBackgroundColor 255 255 255
 	SetBorderColor 55 69 151
@@ -505,17 +544,19 @@ Show
 	PlayEffect Cyan
 
 #Low tier Better < 100c
+Show
 	BaseType "Doryani's Epiphany" "The Damned" "Darker Half" "The Astromancer" "Magnum Opus" "Eternal Bonds" "The Leviathan" "Wealth and Power" "The Greatest Intentions" "The Samurai's Eye" "The Nurse" "Beauty Through Death" "Winter's Embrace" "The Gulf" "The Old Man" "The Aspirant" "Broken Promises" "The Fishmonger" "Duality" "The Bitter Blossom" "The Destination" "Further Invention" "The Hook" "Misery in Darkness" "Succor of the Sinless" "The Long Con" "Fateful Meeting" "The Eternal War" "Remembrance" "The Hive of Knowledge" "The Catch" "Deadly Joy" "The Fortunate"
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 35
-	SetBackgroundColor 23 55 235
-	SetBorderColor 172 184 250
-	SetTextColor 172 184 250
+	SetBackgroundColor 50 73 207
+	SetBorderColor 255 255 255
+	SetTextColor 211 217 252
 	MinimapIcon 1 Cyan Square
 	PlayEffect Cyan
+
 #Low tier
 Show
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
@@ -583,7 +624,7 @@ Show
 	SetBackgroundColor 136 215 235
 	SetBorderColor 33 68 226
 	SetTextColor 33 68 226
-	ItemLevel >= 85
+	ItemLevel >= 72
 
 #Flask Utility 
 Hide
@@ -601,6 +642,14 @@ Hide
 	SetBackgroundColor 93 192 217
 	SetBorderColor 8 26 33
 	SetTextColor 8 26 33
+#Flask Utility 
+Show
+	Class "Flask"
+	SetFontSize 35
+	SetBackgroundColor 255 255 255 0
+	SetBorderColor 136 215 235
+	SetTextColor 136 215 235
+	ItemLevel >= 80	
 
 #Flask Low level
 Hide
@@ -774,7 +823,7 @@ Hide
 	SetTextColor 26 27 102
 
 #ES
-Hide
+Show
 	BaseType "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Titanium Spirit Shield"
 	ItemLevel >= 72
 	SetFontSize 20
