@@ -1,37 +1,6 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
-Show
-	BaseType "Battered Foil" "Tempered Foil" 
-	ItemLevel >= 77
-	SetFontSize 45
-	SetBackgroundColor 8 13 87
-	SetBorderColor 208 230 255
-	SetTextColor 208 230 255
-	MinimapIcon 0 Blue Diamond
-	PlayEffect Blue 
 
-# 5 Linked
-Show
-	LinkedSockets >= 5
-	SetFontSize 25
-	SetBackgroundColor 255 255 255
-	SetBorderColor 68 255 0
-	SetTextColor 68 255 0
-	MinimapIcon 1 Green Triangle
-	PlayEffect Green 	 		
-
-# Rare Set Unidentify Belts Ring Amulet
-Show
-	Rarity = Rare
-	ItemLevel >= 60
-	Identified False
-	Class "Belts" "Amulets" "Rings"
-	SetFontSize 35
-	SetBackgroundColor 15 78 94 
-	SetBorderColor 219 214 56 
-	SetTextColor 219 214 56 
-	MinimapIcon 0 Green Star  
-	PlayEffect Green
 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
@@ -90,6 +59,7 @@ Show
 	SetTextColor 59 255 235
 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
 # Unique Map
 Show
 	Class "Maps"
@@ -341,16 +311,60 @@ Show
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue  
 
+# Essence Corrupt
+Show
+	Class "Currency"
+	BaseType "Remnant of Corruption"
+	SetFontSize 35
+	SetBackgroundColor 64 40 226
+	SetBorderColor 255 255 255
+	SetTextColor 241 39 39
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
 
-#Essence
+#Essence High Deafening
+Show
+	Class "Currency"
+	BaseType "Deafening Essence"
+	SetFontSize 35
+	SetBackgroundColor 64 40 226
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+
+
+#Essence High Shrieking
+Show
+	Class "Currency"
+	BaseType  "Shrieking Essence" 
+	SetFontSize 35
+	SetBackgroundColor 95 75 230
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+
+#Essence High Screaming
+Show
+	Class "Currency"
+	BaseType "Screaming Essence"
+	SetFontSize 35
+	SetBackgroundColor 154 141 235
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+	
+#Essence Low
 Show
 	Class "Currency"
 	BaseType "Essence"
 	SetFontSize 35
-	SetBackgroundColor 122 107 222
+	SetBackgroundColor 154 141 235
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	MinimapIcon 0 Blue Kite
+	MinimapIcon 1 Blue Kite
 	PlayEffect Blue  
 
 #Fossil Resonator 1
@@ -624,7 +638,7 @@ Show
 	SetBackgroundColor 136 215 235
 	SetBorderColor 33 68 226
 	SetTextColor 33 68 226
-	ItemLevel >= 72
+	ItemLevel >= 84
 
 #Flask Utility 
 Hide
@@ -635,21 +649,23 @@ Hide
 	SetTextColor 8 26 33
 
 #Flask >= 10 Quality 
-Hide
+Show
 	BaseType "Flask"
 	Quality >= 10
 	SetFontSize 28
 	SetBackgroundColor 93 192 217
 	SetBorderColor 8 26 33
 	SetTextColor 8 26 33
-#Flask Utility 
-Show
+
+#Flask High Level
+Hide
 	Class "Flask"
+	BaseType "Divine" "Eternal"
 	SetFontSize 35
 	SetBackgroundColor 255 255 255 0
 	SetBorderColor 136 215 235
 	SetTextColor 136 215 235
-	ItemLevel >= 80	
+	ItemLevel >= 84	
 
 #Flask Low level
 Hide
@@ -683,7 +699,6 @@ Show
 #Jewel
 Show
 	Class "Jewel" "Abyss Jewel"
-	Rarity "Rare"
 	ItemLevel >= 82
 	SetFontSize 30
 	SetBackgroundColor 255 255 255
@@ -742,9 +757,9 @@ Show
 Show
 	BaseType "Key"
 	SetFontSize 30
-	SetBackgroundColor 2 255 179
-	SetBorderColor 255 204 0
-	SetTextColor 255 204 0
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 102 0
+	SetTextColor 255 199 152
 	MinimapIcon 0 Green Star
 	PlayEffect Green
 
@@ -789,9 +804,7 @@ Show
 
 #Identify
 Show
-	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Mace" "Two Hand Axe" "Two Hand Swords" "Two Hand Swords" "Quiver" "Ring" "Amulet" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Rune Daggers" "Warstaves"
 	Identified True
-	Corrupted False
 	SetFontSize 30
 	SetBackgroundColor 55 95 104
 	SetBorderColor 182 239 243
@@ -800,9 +813,23 @@ Show
 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
-# Tier 1 res ItemLevel 84
+# ARMOR
+# Tier 1 Elementl Res ItemLevel 84
 # Tier 1 Atribute ItemLevel 82 
 # Tier 1 Spell Suppress 86
+
+# Ring
+# Tier 1 Attribute 82 / 74
+# Tier 1 Elementl Res 84 / 72
+
+# Amulet
+# Tier 1 Attribute 82 / 74
+# Tier 1 Elementl Res 84 / 72
+
+# Belt
+# Tier 1 Elementl Res 84 / 72
+# Tier 1 Increased Flask Charges gained 84 / 70
+# Tier 1 Increased Flask Effect Duration 82 / 66
 
 #ARMOR
 Hide
@@ -823,7 +850,7 @@ Hide
 	SetTextColor 26 27 102
 
 #ES
-Show
+Hide
 	BaseType "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Titanium Spirit Shield"
 	ItemLevel >= 72
 	SetFontSize 20
@@ -865,9 +892,51 @@ Hide
 	SetFontSize 20
 	SetBackgroundColor 255 255 255
 	SetBorderColor 26 27 102
-	SetTextColor 26 27 102			
+	SetTextColor 26 27 102		
+
+#Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class "Belts"
+	BaseType "Chain Belt" "Rustic Sash"  "Heavy Belt" "Leather Belt"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
 
 
+ #Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class  "Amulets"
+	BaseType "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+
+#Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class "Rings"
+	BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amethyst Ring"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+	
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
 ### Other Class

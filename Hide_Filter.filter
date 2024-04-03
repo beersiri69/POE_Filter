@@ -1,5 +1,6 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
+
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
@@ -46,6 +47,16 @@ Show
 	SetBorderColor 68 255 0
 	SetTextColor 68 255 0
 	MinimapIcon 0 Green Triangle
+	PlayEffect Green 	
+
+# 5 Linked
+Show
+	LinkedSockets >= 5
+	SetFontSize 25
+	SetBackgroundColor 255 255 255
+	SetBorderColor 68 255 0
+	SetTextColor 68 255 0
+	MinimapIcon 1 Green Triangle
 	PlayEffect Green 	 		
 
 # Rare Set Unidentify Belts Ring Amulet
@@ -60,19 +71,31 @@ Show
 	SetTextColor 219 214 56 
 	MinimapIcon 0 Green Star  
 	PlayEffect Green
-# Ring amulet
+
+# Ring
 Show
-	Class "Amulets" "Rings"
+	Class "Rings" 
+	BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amethyst Ring"
 	SetFontSize 25
-	SetBackgroundColor 53 0 243 234
+	SetBackgroundColor 53 0 243 134
+	SetBorderColor 118 217 93 
+	SetTextColor 118 217 93 
+
+# Amulet
+Show
+	Class "Amulet" 
+	BaseType "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+	SetFontSize 25
+	SetBackgroundColor 53 0 243 134
 	SetBorderColor 118 217 93 
 	SetTextColor 118 217 93 
 
 # Belt
 Show
-	Class "Belts" "Amulets" "Rings"
+	Class "Belts"
+	BaseType "Chain Belt" "Rustic Sash"  "Heavy Belt" "Leather Belt"
 	SetFontSize 25
-	SetBackgroundColor 53 0 243 234
+	SetBackgroundColor 53 0 243 134
 	SetBorderColor 23 236 190 
 	SetTextColor 23 236 190 
 
@@ -145,6 +168,13 @@ Show
 	SetBackgroundColor 0 0 0
 	SetBorderColor 59 255 235
 	SetTextColor 59 255 235	
+
+# Special Belt
+Show 
+	BaseType "Crystal Belt" "Stygian Vise"
+	SetBackgroundColor 255 255 255 204
+	SetBorderColor 15 75 40
+	SetTextColor 15 75 40
 
 #### Trade
 
@@ -286,7 +316,7 @@ Show
 	DisableDropSoundIfAlertSound
 
 # Normal Gem
-Show
+Hide
 	Class "Gem"
 	SetFontSize 25
 	SetBackgroundColor 239 170 170
@@ -328,7 +358,7 @@ Show
 	MinimapIcon 1 Yellow Moon
 	PlayEffect Yellow
 
-#Brech Ring
+#Breach Ring
 Show
 	Class "Ring"
 	BaseType "Breach"
@@ -370,16 +400,60 @@ Show
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue  
 
+# Essence Corrupt
+Show
+	Class "Currency"
+	BaseType "Remnant of Corruption"
+	SetFontSize 35
+	SetBackgroundColor 64 40 226
+	SetBorderColor 255 255 255
+	SetTextColor 241 39 39
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
 
-#Essence
+#Essence High Deafening
+Show
+	Class "Currency"
+	BaseType "Deafening Essence"
+	SetFontSize 35
+	SetBackgroundColor 64 40 226
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+
+
+#Essence High Shrieking
+Show
+	Class "Currency"
+	BaseType  "Shrieking Essence" 
+	SetFontSize 35
+	SetBackgroundColor 95 75 230
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+
+#Essence High Screaming
+Show
+	Class "Currency"
+	BaseType "Screaming Essence"
+	SetFontSize 35
+	SetBackgroundColor 154 141 235
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	MinimapIcon 0 Blue Kite
+	PlayEffect Blue  
+	
+#Essence Low
 Show
 	Class "Currency"
 	BaseType "Essence"
 	SetFontSize 35
-	SetBackgroundColor 122 107 222
+	SetBackgroundColor 154 141 235
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	MinimapIcon 0 Blue Kite
+	MinimapIcon 1 Blue Kite
 	PlayEffect Blue  
 
 #Fossil Resonator 1
@@ -561,10 +635,10 @@ Hide
 	MinimapIcon 2 Blue Square
 	PlayEffect Blue	
 
-#Card Best
+#Low tier Best
 Show
 	BaseType "The Apothecary" "House of Mirrors" "I See Brothers" "The Price of Devotion" "Unrequited Love" "The One That Got Away" "Who Asked" "Fire Of Unknown Origin" "The Insane Cat" "The Shieldbearer" "The Doctor" "The Demon" "The Fiend" "The Immortal" "Brother's Gift" "Love Through Ice" "Choking Guilt" "The Nurse" "The Price of Loyalty" "Seven Years Bad Luck" "The Cheater" "The Sephirot" "Doryani's Epiphany" "The Chosen" "The Endless Darkness" "The Samurai's Eye" "Divine Beauty" "Desecrated Virtue" "Luminous Trove" "Deadly Joy" "Succor of the Sinless" "The Artist" "Brother's Stash" "The Dragon's Heart" "The Patient" "Broken Promises" "Darker Half" "The Soul" "A Fate Worse Than Death" "Imperfect Memories" "Matryoshka" "The Enlightened"
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 45
 	SetBackgroundColor 255 255 255
 	SetBorderColor 55 69 151
@@ -573,17 +647,19 @@ Show
 	PlayEffect Cyan
 
 #Low tier Better < 100c
+Show
 	BaseType "Doryani's Epiphany" "The Damned" "Darker Half" "The Astromancer" "Magnum Opus" "Eternal Bonds" "The Leviathan" "Wealth and Power" "The Greatest Intentions" "The Samurai's Eye" "The Nurse" "Beauty Through Death" "Winter's Embrace" "The Gulf" "The Old Man" "The Aspirant" "Broken Promises" "The Fishmonger" "Duality" "The Bitter Blossom" "The Destination" "Further Invention" "The Hook" "Misery in Darkness" "Succor of the Sinless" "The Long Con" "Fateful Meeting" "The Eternal War" "Remembrance" "The Hive of Knowledge" "The Catch" "Deadly Joy" "The Fortunate"
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 35
-	SetBackgroundColor 23 55 235
-	SetBorderColor 172 184 250
-	SetTextColor 172 184 250
+	SetBackgroundColor 50 73 207
+	SetBorderColor 255 255 255
+	SetTextColor 211 217 252
 	MinimapIcon 1 Cyan Square
 	PlayEffect Cyan
+
 #Low tier
 Show
-	Class "Divination" 
+	Class "Divination Card" 
 	SetFontSize 30
 	SetBackgroundColor 24 40 128
 	SetBorderColor 172 184 250
@@ -651,7 +727,7 @@ Show
 	SetBackgroundColor 136 215 235
 	SetBorderColor 33 68 226
 	SetTextColor 33 68 226
-	ItemLevel >= 85
+	ItemLevel >= 84
 
 #Flask Utility 
 Show
@@ -674,9 +750,10 @@ Show
 	MinimapIcon 0 White Raindrop 
 	PlayEffect Cyan	
 
-#Flask Utility 
+#Flask High Level
 Show
 	Class "Flask"
+	BaseType "Divine" "Eternal"
 	SetFontSize 35
 	SetBackgroundColor 255 255 255 0
 	SetBorderColor 136 215 235
@@ -715,7 +792,6 @@ Show
 #Jewel
 Show
 	Class "Jewel" "Abyss Jewel"
-	Rarity "Rare"
 	ItemLevel >= 82
 	SetFontSize 30
 	SetBackgroundColor 255 255 255
@@ -829,6 +905,135 @@ Show
 	SetBorderColor 182 239 243
 	SetTextColor 182 239 243
 	MinimapIcon 0 Yellow Triangle
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
+# ARMOR
+# Tier 1 Elementl Res ItemLevel 84
+# Tier 1 Atribute ItemLevel 82 
+# Tier 1 Spell Suppress 86
+
+# Ring
+# Tier 1 Attribute 82 / 74
+# Tier 1 Elementl Res 84 / 72
+
+# Amulet
+# Tier 1 Attribute 82 / 74
+# Tier 1 Elementl Res 84 / 72
+
+# Belt
+# Tier 1 Elementl Res 84 / 72
+# Tier 1 Increased Flask Charges gained 84 / 70
+# Tier 1 Increased Flask Effect Duration 82 / 66
+
+#ARMOR
+Hide
+	BaseType "Royal Burgonet" "Glorious Plate" "Astral Plate" "Titan Gauntlets" "Titan Greaves"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102
+
+#EV
+Hide
+	BaseType "Lion Pelt" "Zodiac Leather" "Slink Gloves" "Slink Boots" "Lacquered Buckler"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102
+
+#ES
+Hide
+	BaseType "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Titanium Spirit Shield"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#Minion
+Hide
+	BaseType "Fossilised Spirit Shield"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#ARMOR/EV
+Hide
+	BaseType "Nightmare Bascinet" "Pig-Faced Bascinet" "Full Dragonscale" "Triumphant Lamellar" "Dragonscale Gauntlets" "Dragonscale Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102	
+
+#ARMOR/ES
+Hide
+	BaseType "Prophet Crown" "Saint's Hauberk" "Saintly Chainmail" "Crusader Gloves" "Crusader Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102			
+
+#EV/ES
+Hide
+	BaseType "Vaal Mask" "Deicide Mask" "Carnal Armour" "Sadist Garb" "Blood Raiment" "Murder Mitts" "Murder Boots"
+	ItemLevel >= 72
+	SetFontSize 20
+	SetBackgroundColor 255 255 255
+	SetBorderColor 26 27 102
+	SetTextColor 26 27 102		
+
+#Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class "Belts"
+	BaseType "Chain Belt" "Rustic Sash"  "Heavy Belt" "Leather Belt"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+
+
+ #Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class  "Amulets"
+	BaseType "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+
+#Base Belt
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	Identified False
+	Class "Rings"
+	BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amethyst Ring"
+	SetFontSize 35
+	SetBackgroundColor 15 78 94 
+	SetBorderColor 219 214 56 
+	SetTextColor 219 214 56 
+	MinimapIcon 0 Green Star  
+	PlayEffect Green
+
+# ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   Base item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
+
 ### Other Class
 
 Hide
