@@ -699,6 +699,7 @@ Show
 #Jewel
 Show
 	Class "Jewel" "Abyss Jewel"
+	Rarity = Rare
 	ItemLevel >= 82
 	SetFontSize 30
 	SetBackgroundColor 255 255 255
@@ -804,7 +805,7 @@ Show
 
 #Identify
 Show
-	Identified True
+	AnyEnchantment True
 	SetFontSize 30
 	SetBackgroundColor 55 95 104
 	SetBorderColor 182 239 243
