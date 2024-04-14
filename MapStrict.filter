@@ -1,6 +1,7 @@
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
 
+
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   WANT   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 	
 # ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥   League item   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ 
 
@@ -137,7 +138,7 @@ Show
 #### Trade
 
 # Chromatic Orb 1 Items
-Show
+Hide
 	SetFontSize 35
 	SocketGroup "RGB"
 	SetBackgroundColor 67 233 164
@@ -268,7 +269,7 @@ Show
 	MinimapIcon 1 Yellow Moon
 	PlayEffect Yellow
 
-#Breach Ring
+#Brech Ring
 Show
 	Class "Ring"
 	BaseType "Breach"
@@ -277,7 +278,7 @@ Show
 	SetBorderColor 224 17 155
 	SetTextColor 224 17 155
 	MinimapIcon 2 Purple Moon
-	PlayEffect Purple  
+	PlayEffect Purple
 
 #Breach Splinter
 Show
@@ -416,7 +417,7 @@ Show
 	SetBackgroundColor 246 202 55
 	SetBorderColor 192 74 0
 	SetTextColor 192 74 0
-	MinimapIcon 0 Yellow Kite	
+	MinimapIcon 0 Yellow Kite
 	PlayEffect Blue  
 
 #Tainted
@@ -428,8 +429,8 @@ Show
 	SetBorderColor 226 10 10
 	SetTextColor 226 10 10
 	MinimapIcon 1 Red Cross
-	PlayEffect Blue	
-
+	PlayEffect Blue
+	
 #Expendition Currency
 Show
 	BaseType "Astragali" "Exotic Coinage" "Scrap Metal" "Burial Medallion"
@@ -616,7 +617,7 @@ Show
 	SetBackgroundColor 129 34 218
 	SetBorderColor 193 151 233
 	SetTextColor 193 151 233
-	MinimapIcon 0 Purple Circle
+	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
 
 #Frgment Legion
@@ -669,7 +670,7 @@ Show
 	SetBackgroundColor 136 215 235
 	SetBorderColor 33 68 226
 	SetTextColor 33 68 226
-	ItemLevel >= 84
+	ItemLevel >= 85
 
 #Flask Utility 
 Hide
@@ -679,10 +680,10 @@ Hide
 	SetBorderColor 8 26 33
 	SetTextColor 8 26 33
 
-#Flask >= 10 Quality 
+#Flask >= 20 Quality 
 Show
 	BaseType "Flask"
-	Quality >= 10
+	Quality >= 20
 	SetFontSize 28
 	SetBackgroundColor 93 192 217
 	SetBorderColor 8 26 33
@@ -942,9 +943,9 @@ Hide
 
 
  #Base Belt
-Show
+Hide
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Identified False
 	Class  "Amulets"
 	BaseType "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
@@ -956,9 +957,9 @@ Show
 	PlayEffect Green
 
 #Base Belt
-Show
+Hide
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Identified False
 	Class "Rings"
 	BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amethyst Ring"

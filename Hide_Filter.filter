@@ -369,7 +369,7 @@ Show
 	MinimapIcon 2 Purple Moon
 	PlayEffect Purple  
 
-#Breach
+#Breach Splinter
 Show
 	BaseType "Splinter of"
 	SetFontSize 35
@@ -378,6 +378,16 @@ Show
 	SetTextColor 224 17 79
 	MinimapIcon 0 Purple Moon
 	PlayEffect Purple   
+
+#Breach Stone Flawless
+Show
+	Class "Breachstone"
+	SetFontSize 45
+	SetBackgroundColor 255 255 255
+	SetBorderColor 224 17 155
+	SetTextColor 224 17 79
+	MinimapIcon 0 Purple Moon
+	PlayEffect Purple  
 
 #Life force
 Show
@@ -499,6 +509,17 @@ Show
 	MinimapIcon 0 Yellow Kite
 	PlayEffect Blue  
 
+#Tainted
+Show
+	Class "Currency"
+	BaseType "Tainted"
+	SetFontSize 35
+	SetBackgroundColor 255 255 255
+	SetBorderColor 226 10 10
+	SetTextColor 226 10 10
+	MinimapIcon 1 Red Cross
+		PlayEffect Blue	
+
 #Expendition Currency
 Show
 	BaseType "Astragali" "Exotic Coinage" "Scrap Metal" "Burial Medallion"
@@ -606,7 +627,7 @@ Show
 #Value Currency
 Show
 	Class "Currency" "Stackable Currency"
-	BaseType "Chaos" "Divine" "Mirror"
+	BaseType "Chaos" "Divine" "Mirror" "Exalted" "Valdo's Puzzle Box"
 	SetFontSize 45
 	SetBackgroundColor 192 74 0
 	SetBorderColor 255 226 133
@@ -666,6 +687,17 @@ Show
 	SetTextColor 172 184 250
 	MinimapIcon 2 Blue Square
 	PlayEffect Blue	
+	
+#Map17
+Show
+	Class "Maps"
+	BaseType "Abomination" "Citadel" "Fortress" "Sanctuary" "Ziggurat"
+	SetFontSize 40
+	SetBackgroundColor 255 255 255
+	SetBorderColor 129 34 218
+	SetTextColor 129 34 218
+	MinimapIcon 0 Purple Circle
+	PlayEffect Purple
 
 #Map1
 Show
@@ -850,9 +882,9 @@ Show
 Show
 	BaseType "Key"
 	SetFontSize 30
-	SetBackgroundColor 2 255 179
-	SetBorderColor 255 204 0
-	SetTextColor 255 204 0
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 102 0
+	SetTextColor 255 199 152
 	MinimapIcon 0 Green Star
 	PlayEffect Green
 
@@ -897,9 +929,7 @@ Show
 
 #Identify
 Show
-	Class "Claws" "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Mace" "Two Hand Axe" "Two Hand Swords" "Two Hand Swords" "Quiver" "Ring" "Amulet" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Rune Daggers" "Warstaves"
-	Identified True
-	Corrupted False
+	AnyEnchantment True
 	SetFontSize 30
 	SetBackgroundColor 55 95 104
 	SetBorderColor 182 239 243
